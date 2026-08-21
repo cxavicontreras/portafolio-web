@@ -18,9 +18,10 @@ const projects: Project[] = [
     description:
       "Aplicación CRUD construida con React para registrar, consultar, actualizar y eliminar estudiantes. Incluye una interfaz responsiva y persistencia de datos mediante localStorage.",
     tech: ["React", "JavaScript", "CSS"],
-    github:
+    github: 
       "https://github.com/cxavicontreras/control-de-asistencia-academica",
-    image: CRUDImg,
+    demo:"https://control-de-asistencia-academica-xc.vercel.app/",
+    image : CRUDImg,
   },
   {
     title: "Calculadora web",
@@ -28,6 +29,7 @@ const projects: Project[] = [
       "Calculadora responsiva que permite realizar operaciones básicas, potencias, raíces y porcentajes desde computadoras o dispositivos móviles.",
     tech: ["HTML5", "CSS3", "JavaScript"],
     github: "https://github.com/cxavicontreras/Calculator",
+    demo:"https://calculator-xc.vercel.app/",
     image: CalculadoraImg,
   },
   {
@@ -35,7 +37,8 @@ const projects: Project[] = [
     description:
       "Aplicación web responsiva para crear, organizar, completar y eliminar tareas desde cualquier dispositivo.",
     tech: ["HTML5", "CSS3", "JavaScript"],
-    github: "https://github.com/cxavicontreras/ToDoList",
+    github:"https://github.com/cxavicontreras/ToDoList",
+    demo:"https://to-do-list-xc.vercel.app/",
     image: TD,
   },
 ];
@@ -218,7 +221,17 @@ export default function App() {
                         href={project.demo}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="flex-1 rounded-xl bg-green-500 px-4 py-3 text-center font-semibold text-black transition hover:bg-green-400"
+                        className="
+                          flex-1 
+                          rounded-xl 
+                          bg-green-500 
+                          px-4 
+                          py-3 
+                          text-center 
+                          font-semibold 
+                          text-black transition 
+                          hover:bg-green-400
+                        "
                       >
                         Ver demo
                       </a>
@@ -228,7 +241,18 @@ export default function App() {
                       href={project.github}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex-1 rounded-xl border border-zinc-700 px-4 py-3 text-center font-semibold transition hover:border-green-400 hover:text-green-400"
+                      className="
+                        flex-1 
+                        rounded-xl 
+                        border 
+                        border-zinc-700 
+                        px-4 
+                        py-3 
+                        text-center 
+                        font-semibold 
+                        transition 
+                        hover:border-green-400 
+                        hover:text-green-400"
                     >
                       Ver código
                     </a>
