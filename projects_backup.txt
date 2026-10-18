@@ -1,0 +1,30 @@
+﻿import type { Language } from "../i18n/translations";
+  {
+    id: "analizador-lexico",
+  title: {
+    es: "Analizador Léxico",
+    en: "Lexical Analyzer",
+  },
+,
+  {
+    id: "control-asistencia",
+    title: {
+      es: "Sistema de Control de Asistencia",
+      en: "Attendance Management System",
+    },
+,
+  {
+    id: "calculadora-web",
+    title: {
+      es: "Calculadora Web",
+      en: "Web Calculator",
+    },
+﻿import type { Language } from "../i18n/translations";
+
+export type Localized<T> = Record<Language, T>;
+
+export type Project = {
+  id: string;
+  title: Localized<string>;
+  description: Localized<string>;
+  focus?: Localized<string>;
