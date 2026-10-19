@@ -60,7 +60,7 @@ const es = {
     eyebrow: "Portafolio",
     heading: "Proyectos destacados",
     description:
-      "Aplicaciones web que he desarrollado de principio a fin, aplicando diseño responsivo, gestión de estado y lógica de negocio con React y JavaScript.",
+      "Proyectos de desarrollo web en los que he participado, creando interfaces responsivas, implementando funcionalidades e integrando tecnologías frontend y backend.",
     featuredBadge: "Proyecto principal",
     focusLabel: "Enfoque",
     liveDemo: "Ver demo",

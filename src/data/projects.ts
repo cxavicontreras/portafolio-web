@@ -82,26 +82,26 @@ export const projects: Project[] = [
     },
   },
   {
-    id: "calculadora-web",
+    id: "lista-tareas",
     title: {
-      es: "Calculadora Web",
-      en: "Web Calculator",
+      es: "Lista de Tareas",
+      en: "To-Do List",
     },
     description: {
-      es: "Calculadora responsiva que resuelve operaciones básicas, potencias, raíces y porcentajes desde computadoras y dispositivos móviles.",
-      en: "Responsive calculator that solves basic operations, powers, roots and percentages on computers and mobile devices.",
+      es: "Aplicación web responsiva para crear, organizar, completar y eliminar tareas desde cualquier dispositivo.",
+      en: "Responsive web application to create, organize, complete and delete tasks from any device.",
     },
     focus: {
-      es: "Manipulación del DOM, lógica de cálculo y diseño responsivo.",
-      en: "DOM manipulation, calculation logic and responsive design.",
+      es: "Manipulación del DOM, gestión de estado local y diseño responsivo.",
+      en: "DOM manipulation, local state management and responsive design.",
     },
     tech: ["HTML5", "CSS3", "JavaScript"],
-    github: "https://github.com/cxavicontreras/Calculator",
-    demo: "https://calculator-xc.vercel.app/",
-    image: "/projects/calculator.webp",
+    github: "https://github.com/cxavicontreras/ToDoList",
+    demo: "https://to-do-list-xc.vercel.app/",
+    image: "/projects/todo.webp",
     imageAlt: {
-      es: "Vista previa de la Calculadora Web",
-      en: "Preview of the Web Calculator",
+      es: "Vista previa de la Lista de Tareas",
+      en: "Preview of the To-Do List",
     },
   },
 ];
