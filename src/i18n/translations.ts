@@ -138,7 +138,7 @@ const en: Dictionary = {
     eyebrow: "Portfolio",
     heading: "Featured projects",
     description:
-      "Web applications I have built end to end, applying responsive design, state management and business logic with React and JavaScript.",
+      "Web development projects I have participated in, involving the creation of responsive interfaces, the implementation of features, and the integration of frontend and backend technologies.",
     featuredBadge: "Featured project",
     focusLabel: "Focus",
     liveDemo: "Live demo",
