@@ -49,6 +49,37 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+    id: "competencia-matematica",
+    title: {
+      es: "Sistema de Competencia Matemática",
+      en: "Mathematics Competition System",
+    },
+    description: {
+      es: "Aplicación interactiva para organizar competencias matemáticas, con configuración de pruebas, administración de participantes y grupos, seguimiento de puntuaciones y generación de reportes. Disponible en versiones web y de escritorio.",
+      en: "Interactive application for organizing mathematics competitions, featuring customizable challenges, participant and group management, score tracking, and report generation. Available for web and desktop.",
+    },
+    focus: {
+      es: "Desarrollo integral, gestión de estado, lógica de competencias y aplicaciones multiplataforma.",
+      en: "Full application development, state management, competition logic, and cross-platform applications.",
+    },
+    tech: [
+      "React",
+      "TypeScript",
+      "Vite",
+      "Zustand",
+      "Tailwind CSS",
+      "Framer Motion",
+      "Electron",
+    ],
+    github: "https://github.com/cxavicontreras/sigma-competencia",
+    demo: "https://competencia-matematica-xc.vercel.app/",
+    image: "/projects/math-competition.webp",
+    imageAlt: {
+      es: "Vista previa del Sistema de Competencia Matemática",
+      en: "Preview of the Mathematics Competition System",
+    },
+  },
+  {
     id: "control-asistencia",
     title: {
       es: "Sistema de Control de Asistencia",

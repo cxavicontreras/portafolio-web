@@ -38,7 +38,7 @@ export default function ProjectsSection() {
       )}
 
       {secondaryProjects.length > 0 && (
-        <div className="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2">
+        <div className="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2 sm:[&>*:last-child]:col-span-2 lg:grid-cols-3 lg:[&>*:last-child]:col-span-1">
           {secondaryProjects.map((project) => (
             <ProjectCard key={project.id} project={project} />
           ))}

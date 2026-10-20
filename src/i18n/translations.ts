@@ -64,11 +64,8 @@ const es = {
     featuredBadge: "Proyecto principal",
     focusLabel: "Enfoque",
     liveDemo: "Ver demo",
-    sourceCode: "Ver código",
     demoAria: (title: string) =>
       `Abrir demostración en vivo de ${title} en una nueva pestaña`,
-    sourceAria: (title: string) =>
-      `Ver el código fuente de ${title} en GitHub en una nueva pestaña`,
   },
   about: {
     eyebrow: "Conóceme",
@@ -142,10 +139,7 @@ const en: Dictionary = {
     featuredBadge: "Featured project",
     focusLabel: "Focus",
     liveDemo: "Live demo",
-    sourceCode: "View code",
     demoAria: (title: string) => `Open the live demo of ${title} in a new tab`,
-    sourceAria: (title: string) =>
-      `View the source code of ${title} on GitHub in a new tab`,
   },
   about: {
     eyebrow: "Get to know me",
